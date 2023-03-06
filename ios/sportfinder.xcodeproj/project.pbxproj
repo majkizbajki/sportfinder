@@ -14,6 +14,9 @@
 		6F3942D4B2B3FD2B8966EE51 /* libPods-sportfinderCommonPods-sportfinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B837C1B641DCE827915EAC /* libPods-sportfinderCommonPods-sportfinderTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B8B097791CC916BE48553C8 /* libPods-sportfinderCommonPods-sportfinderDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631FDA295E00CC6E406A376B /* libPods-sportfinderCommonPods-sportfinderDev.a */; };
+		9022E18929B64732001A8A49 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9022E18829B64732001A8A49 /* BootSplash.storyboard */; };
+		9022E18A29B64732001A8A49 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9022E18829B64732001A8A49 /* BootSplash.storyboard */; };
+		9022E18B29B64732001A8A49 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9022E18829B64732001A8A49 /* BootSplash.storyboard */; };
 		90AE145329B5F94400E90931 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		90AE145429B5F94400E90931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		90AE145829B5F94400E90931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -57,6 +60,7 @@
 		800D373467BA8AE71D6C88F5 /* Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sportfinder/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sportfinder-sportfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinder-sportfinderTests.release.xcconfig"; path = "Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9022E18829B64732001A8A49 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = sportfinder/BootSplash.storyboard; sourceTree = "<group>"; };
 		90AE146029B5F94400E90931 /* sportfinderDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportfinderDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AE146129B5F94400E90931 /* sportfinder dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "sportfinder dev-Info.plist"; path = "/Users/michal/sportfinder/ios/sportfinder dev-Info.plist"; sourceTree = "<absolute>"; };
 		90AE147329B5F95100E90931 /* sportfinderStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportfinderStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +134,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				9022E18829B64732001A8A49 /* BootSplash.storyboard */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -342,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9022E18929B64732001A8A49 /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -351,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9022E18A29B64732001A8A49 /* BootSplash.storyboard in Resources */,
 				90AE145829B5F94400E90931 /* LaunchScreen.storyboard in Resources */,
 				90AE145929B5F94400E90931 /* Images.xcassets in Resources */,
 			);
@@ -360,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9022E18B29B64732001A8A49 /* BootSplash.storyboard in Resources */,
 				90AE146B29B5F95100E90931 /* LaunchScreen.storyboard in Resources */,
 				90AE146C29B5F95100E90931 /* Images.xcassets in Resources */,
 			);
@@ -804,6 +812,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S29FTA92S2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = sportfinder/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SportFinder;
@@ -833,6 +842,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S29FTA92S2;
 				INFOPLIST_FILE = sportfinder/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SportFinder;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
