@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* sportfinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sportfinderTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-sportfinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-sportfinder.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-sportfinder-sportfinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sportfinder-sportfinderTests.a */; };
+		6F3942D4B2B3FD2B8966EE51 /* libPods-sportfinderCommonPods-sportfinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B837C1B641DCE827915EAC /* libPods-sportfinderCommonPods-sportfinderTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B8B097791CC916BE48553C8 /* libPods-sportfinderCommonPods-sportfinderDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 631FDA295E00CC6E406A376B /* libPods-sportfinderCommonPods-sportfinderDev.a */; };
+		90AE145329B5F94400E90931 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		90AE145429B5F94400E90931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		90AE145829B5F94400E90931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		90AE145929B5F94400E90931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		90AE146629B5F95100E90931 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		90AE146729B5F95100E90931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		90AE146B29B5F95100E90931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		90AE146C29B5F95100E90931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		9B17822171EBA0EB7AEB7FC9 /* libPods-sportfinderCommonPods-sportfinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B60F365BD18B3472164B86 /* libPods-sportfinderCommonPods-sportfinder.a */; };
+		A2E8D518E5F3CF8776AD9783 /* libPods-sportfinderCommonPods-sportfinderStg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1979D959DBCE6DE628C0F5E3 /* libPods-sportfinderCommonPods-sportfinderStg.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +40,34 @@
 		00E356EE1AD99517003FC87E /* sportfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sportfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* sportfinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportfinderTests.m; sourceTree = "<group>"; };
+		10FD5BC0FA25950CA29603D7 /* Pods-sportfinderCommonPods-sportfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderTests.release.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* sportfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sportfinder/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = sportfinder/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sportfinder/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sportfinder/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sportfinder/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-sportfinder-sportfinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinder-sportfinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1500112AEFA243C4605E6F96 /* Pods-sportfinderCommonPods-sportfinderDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderDev.release.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev.release.xcconfig"; sourceTree = "<group>"; };
+		1979D959DBCE6DE628C0F5E3 /* libPods-sportfinderCommonPods-sportfinderStg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinderCommonPods-sportfinderStg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-sportfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinder.debug.xcconfig"; path = "Target Support Files/Pods-sportfinder/Pods-sportfinder.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-sportfinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinder.release.xcconfig"; path = "Target Support Files/Pods-sportfinder/Pods-sportfinder.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-sportfinder-sportfinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinder-sportfinderTests.debug.xcconfig"; path = "Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-sportfinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631FDA295E00CC6E406A376B /* libPods-sportfinderCommonPods-sportfinderDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinderCommonPods-sportfinderDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E1788186CAFF7779211EEF /* Pods-sportfinderCommonPods-sportfinderStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderStg.release.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg.release.xcconfig"; sourceTree = "<group>"; };
+		800D373467BA8AE71D6C88F5 /* Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sportfinder/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sportfinder-sportfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinder-sportfinderTests.release.xcconfig"; path = "Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		90AE146029B5F94400E90931 /* sportfinderDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportfinderDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE146129B5F94400E90931 /* sportfinder dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "sportfinder dev-Info.plist"; path = "/Users/michal/sportfinder/ios/sportfinder dev-Info.plist"; sourceTree = "<absolute>"; };
+		90AE147329B5F95100E90931 /* sportfinderStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportfinderStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE147429B5F95100E90931 /* sportfinder stg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "sportfinder stg-Info.plist"; path = "/Users/michal/sportfinder/ios/sportfinder stg-Info.plist"; sourceTree = "<absolute>"; };
+		A2A549185564FB80B5092691 /* Pods-sportfinderCommonPods-sportfinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderTests.debug.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A30F33FFBBDBA70C78F57FCC /* Pods-sportfinderCommonPods-sportfinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinder.release.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder.release.xcconfig"; sourceTree = "<group>"; };
+		C5B60F365BD18B3472164B86 /* libPods-sportfinderCommonPods-sportfinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinderCommonPods-sportfinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F7B2343F9553083707DE0B /* Pods-sportfinderCommonPods-sportfinderDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinderDev.debug.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B837C1B641DCE827915EAC /* libPods-sportfinderCommonPods-sportfinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sportfinderCommonPods-sportfinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB61F4FEE6156543CC2AFE67 /* Pods-sportfinderCommonPods-sportfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportfinderCommonPods-sportfinder.debug.xcconfig"; path = "Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-sportfinder-sportfinderTests.a in Frameworks */,
+				6F3942D4B2B3FD2B8966EE51 /* libPods-sportfinderCommonPods-sportfinderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-sportfinder.a in Frameworks */,
+				9B17822171EBA0EB7AEB7FC9 /* libPods-sportfinderCommonPods-sportfinder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE145529B5F94400E90931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8B097791CC916BE48553C8 /* libPods-sportfinderCommonPods-sportfinderDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE146829B5F95100E90931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E8D518E5F3CF8776AD9783 /* libPods-sportfinderCommonPods-sportfinderStg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-sportfinder.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-sportfinder-sportfinderTests.a */,
+				C5B60F365BD18B3472164B86 /* libPods-sportfinderCommonPods-sportfinder.a */,
+				631FDA295E00CC6E406A376B /* libPods-sportfinderCommonPods-sportfinderDev.a */,
+				1979D959DBCE6DE628C0F5E3 /* libPods-sportfinderCommonPods-sportfinderStg.a */,
+				D3B837C1B641DCE827915EAC /* libPods-sportfinderCommonPods-sportfinderTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +164,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				90AE146129B5F94400E90931 /* sportfinder dev-Info.plist */,
+				90AE147429B5F95100E90931 /* sportfinder stg-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +177,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* sportfinder.app */,
 				00E356EE1AD99517003FC87E /* sportfinderTests.xctest */,
+				90AE146029B5F94400E90931 /* sportfinderDev.app */,
+				90AE147329B5F95100E90931 /* sportfinderStg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +190,14 @@
 				5709B34CF0A7D63546082F79 /* Pods-sportfinder.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-sportfinder-sportfinderTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-sportfinder-sportfinderTests.release.xcconfig */,
+				FB61F4FEE6156543CC2AFE67 /* Pods-sportfinderCommonPods-sportfinder.debug.xcconfig */,
+				A30F33FFBBDBA70C78F57FCC /* Pods-sportfinderCommonPods-sportfinder.release.xcconfig */,
+				D0F7B2343F9553083707DE0B /* Pods-sportfinderCommonPods-sportfinderDev.debug.xcconfig */,
+				1500112AEFA243C4605E6F96 /* Pods-sportfinderCommonPods-sportfinderDev.release.xcconfig */,
+				800D373467BA8AE71D6C88F5 /* Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig */,
+				78E1788186CAFF7779211EEF /* Pods-sportfinderCommonPods-sportfinderStg.release.xcconfig */,
+				A2A549185564FB80B5092691 /* Pods-sportfinderCommonPods-sportfinderTests.debug.xcconfig */,
+				10FD5BC0FA25950CA29603D7 /* Pods-sportfinderCommonPods-sportfinderTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -194,6 +248,50 @@
 			productReference = 13B07F961A680F5B00A75B9A /* sportfinder.app */;
 			productType = "com.apple.product-type.application";
 		};
+		90AE144F29B5F94400E90931 /* sportfinderDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE145D29B5F94400E90931 /* Build configuration list for PBXNativeTarget "sportfinderDev" */;
+			buildPhases = (
+				90AE145029B5F94400E90931 /* [CP] Check Pods Manifest.lock */,
+				90AE145129B5F94400E90931 /* Start Packager */,
+				90AE145229B5F94400E90931 /* Sources */,
+				90AE145529B5F94400E90931 /* Frameworks */,
+				90AE145729B5F94400E90931 /* Resources */,
+				90AE145A29B5F94400E90931 /* Bundle React Native code and images */,
+				90AE145B29B5F94400E90931 /* [CP] Embed Pods Frameworks */,
+				90AE145C29B5F94400E90931 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sportfinderDev;
+			productName = sportfinder;
+			productReference = 90AE146029B5F94400E90931 /* sportfinderDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90AE146229B5F95100E90931 /* sportfinderStg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE147029B5F95100E90931 /* Build configuration list for PBXNativeTarget "sportfinderStg" */;
+			buildPhases = (
+				90AE146329B5F95100E90931 /* [CP] Check Pods Manifest.lock */,
+				90AE146429B5F95100E90931 /* Start Packager */,
+				90AE146529B5F95100E90931 /* Sources */,
+				90AE146829B5F95100E90931 /* Frameworks */,
+				90AE146A29B5F95100E90931 /* Resources */,
+				90AE146D29B5F95100E90931 /* Bundle React Native code and images */,
+				90AE146E29B5F95100E90931 /* [CP] Embed Pods Frameworks */,
+				90AE146F29B5F95100E90931 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sportfinderStg;
+			productName = sportfinder;
+			productReference = 90AE147329B5F95100E90931 /* sportfinderStg.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +324,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* sportfinder */,
 				00E356ED1AD99517003FC87E /* sportfinderTests */,
+				90AE144F29B5F94400E90931 /* sportfinderDev */,
+				90AE146229B5F95100E90931 /* sportfinderStg */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +344,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE145729B5F94400E90931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE145829B5F94400E90931 /* LaunchScreen.storyboard in Resources */,
+				90AE145929B5F94400E90931 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE146A29B5F95100E90931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE146B29B5F95100E90931 /* LaunchScreen.storyboard in Resources */,
+				90AE146C29B5F95100E90931 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +390,197 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE145029B5F94400E90931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sportfinderCommonPods-sportfinderDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE145129B5F94400E90931 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE145A29B5F94400E90931 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		90AE145B29B5F94400E90931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE145C29B5F94400E90931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderDev/Pods-sportfinderCommonPods-sportfinderDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE146329B5F95100E90931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sportfinderCommonPods-sportfinderStg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE146429B5F95100E90931 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE146D29B5F95100E90931 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		90AE146E29B5F95100E90931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE146F29B5F95100E90931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderStg/Pods-sportfinderCommonPods-sportfinderStg-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +598,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sportfinder-sportfinderTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-sportfinderCommonPods-sportfinderTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +620,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sportfinder-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-sportfinderCommonPods-sportfinder-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +633,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +650,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinder/Pods-sportfinder-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinder/Pods-sportfinderCommonPods-sportfinder-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +667,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinder-sportfinderTests/Pods-sportfinder-sportfinderTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportfinderCommonPods-sportfinderTests/Pods-sportfinderCommonPods-sportfinderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -417,6 +717,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90AE145229B5F94400E90931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE145329B5F94400E90931 /* AppDelegate.mm in Sources */,
+				90AE145429B5F94400E90931 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE146529B5F95100E90931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE146629B5F95100E90931 /* AppDelegate.mm in Sources */,
+				90AE146729B5F95100E90931 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -430,7 +748,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-sportfinder-sportfinderTests.debug.xcconfig */;
+			baseConfigurationReference = A2A549185564FB80B5092691 /* Pods-sportfinderCommonPods-sportfinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +775,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-sportfinder-sportfinderTests.release.xcconfig */;
+			baseConfigurationReference = 10FD5BC0FA25950CA29603D7 /* Pods-sportfinderCommonPods-sportfinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,13 +799,15 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-sportfinder.debug.xcconfig */;
+			baseConfigurationReference = FB61F4FEE6156543CC2AFE67 /* Pods-sportfinderCommonPods-sportfinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = sportfinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportFinder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,12 +828,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-sportfinder.release.xcconfig */;
+			baseConfigurationReference = A30F33FFBBDBA70C78F57FCC /* Pods-sportfinderCommonPods-sportfinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = sportfinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportFinder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -668,6 +990,118 @@
 			};
 			name = Release;
 		};
+		90AE145E29B5F94400E90931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F7B2343F9553083707DE0B /* Pods-sportfinderCommonPods-sportfinderDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "sportfinder dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SportFinder dev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		90AE145F29B5F94400E90931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1500112AEFA243C4605E6F96 /* Pods-sportfinderCommonPods-sportfinderDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "sportfinder dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SportFinder dev";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		90AE147129B5F95100E90931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800D373467BA8AE71D6C88F5 /* Pods-sportfinderCommonPods-sportfinderStg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStg;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "sportfinder stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SportFinder stg";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		90AE147229B5F95100E90931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E1788186CAFF7779211EEF /* Pods-sportfinderCommonPods-sportfinderStg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStg;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "sportfinder stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SportFinder stg";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -694,6 +1128,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AE145D29B5F94400E90931 /* Build configuration list for PBXNativeTarget "sportfinderDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE145E29B5F94400E90931 /* Debug */,
+				90AE145F29B5F94400E90931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AE147029B5F95100E90931 /* Build configuration list for PBXNativeTarget "sportfinderStg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE147129B5F95100E90931 /* Debug */,
+				90AE147229B5F95100E90931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
