@@ -21,7 +21,16 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'sportfinder' do
+abstract_target 'sportfinderCommonPods' do
+  target 'sportfinderDev' do
+  end
+
+  target 'sportfinderStg' do
+  end
+
+  target 'sportfinder' do
+  end
+  
   config = use_native_modules!
 
   # Flags change depending on the env values.
