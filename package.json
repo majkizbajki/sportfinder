@@ -13,9 +13,17 @@
     "android:dev": "react-native run-android --variant=developmentdebug",
     "android:dev-release": "react-native run-android --variant=developmentrelease",
     "android:prod": "react-native run-android --variant=productiondebug",
-    "android:prod-release": "react-native run-android --variant=productionrelease"
+    "android:prod-release": "react-native run-android --variant=productionrelease",
+
+    "android-staging": "./src/config/firebase/android/script.sh staging && react-native run-android --variant=stagingdebug",
+    "android-staging-release": "./src/config/firebase/android/script.sh staging && react-native run-android --variant=stagingrelease",
+    "android-dev": "./src/config/firebase/android/script.sh development && react-native run-android --variant=developmentdebug",
+    "android-dev-release": "./src/config/firebase/android/script.sh development && react-native run-android --variant=developmentrelease",
+    "android-prod": "./src/config/firebase/android/script.sh production && react-native run-android --variant=productiondebug",
+    "android-prod-release": "./src/config/firebase/android/script.sh production && react-native run-android --variant=productionrelease"
   },
   "dependencies": {
+    "@react-native-firebase/app": "14.12.0",
     "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",

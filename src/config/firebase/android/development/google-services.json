@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "726886086970",
+    "project_id": "sportfinder-dev",
+    "storage_bucket": "sportfinder-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726886086970:android:b7d3dca4e5eb18c74ff803",
+        "android_client_info": {
+          "package_name": "com.sportfinder.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726886086970-uhtucshc34sdjg11i6j0hbjo37ar3a3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSP73mYbejkt5di1O4P_P3QGVwAn-mjYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726886086970-uhtucshc34sdjg11i6j0hbjo37ar3a3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
