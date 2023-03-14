@@ -1,13 +1,29 @@
 import React from 'react';
-import {Text, SafeAreaView, Button} from 'react-native';
-import {useAuth} from '../../hooks';
+import { useTranslation } from 'react-i18next';
+import { Button, SafeAreaView, Text } from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { BottomTabsParamList } from '../../navigation/BottomTabs';
+import { useLogOutMutation } from '../../store/auth/authApiSlice';
 
-export const ProfileScreen = () => {
-  const {signOut} = useAuth();
-  return (
-    <SafeAreaView>
-      <Text>Profile</Text>
-      <Button onPress={signOut} title="Log out" />
-    </SafeAreaView>
-  );
+type ProfileScreenProps = NativeStackScreenProps<BottomTabsParamList, 'ProfileScreen'>;
+
+export const ProfileScreen = ({ navigation }: ProfileScreenProps) => {
+    const [logOut, { isLoading }] = useLogOutMutation();
+    const { t } = useTranslation();
+
+    const handleSignOut = async () => {
+        try {
+            await logOut().unwrap();
+        } catch (error) {
+            // TODO
+            // handle error
+        }
+    };
+
+    return (
+        <SafeAreaView>
+            <Text>Profile</Text>
+            <Button onPress={handleSignOut} title={t('auth.logout')} />
+        </SafeAreaView>
+    );
 };

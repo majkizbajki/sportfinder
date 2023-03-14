@@ -1,13 +1,14 @@
 import React from 'react';
-import {AuthProvider} from './src/context/AuthContext';
-import {Navigation} from './src/navigation';
+import { Provider } from 'react-redux';
+import { Navigation } from './src/navigation';
+import { store } from './src/store/store';
 
 function App(): JSX.Element {
-  return (
-    <AuthProvider>
-      <Navigation />
-    </AuthProvider>
-  );
+    return (
+        <Provider store={store}>
+            <Navigation />
+        </Provider>
+    );
 }
 
 export default App;

@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "signIn": "Sign in",
+        "signUp": "Sign up",
+        "logout": "Logout",
+        "errors": {
+            "invalid_credentials": "This email address or password is invalid",
+            "unverified_email": "That email address is unverified"
+        }
+    }
+}
